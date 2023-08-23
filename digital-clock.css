@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.clock{
+    display: inline-flex;
+    justify-content: center ;
+    gap:100px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+.hour{
+    background-color:salmon;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+#hour{
+    font-size: 70px;
+    padding: 20px;
+}
+#minutes{
+    font-size: 70px;
+    padding: 20px;
+}
+#seconds{
+    font-size: 70px;
+    padding: 20px;
+}
+.minutes{
+    background-color: salmon;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+
+}
+.second{
+    background-color: salmon;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+}
+h6{
+    font-size: 40px;
+    background-color: blanchedalmond;
+    padding: 20px;
+}

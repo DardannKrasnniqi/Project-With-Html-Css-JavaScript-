@@ -5,6 +5,7 @@ const inputE1 = document.getElementById("search-input");
 const searchResults = document.querySelector(".search-results");
 const showMore = document.getElementById("show-more-button");
 
+
 let inputData = "";
 let page = 1;
 
@@ -64,3 +65,5 @@ showMore.addEventListener("click", () => {
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;}
+
+

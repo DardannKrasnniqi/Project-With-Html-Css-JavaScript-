@@ -5,9 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unsplash Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="digital-clock.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
+
+  <h1>Digital Clock</h1>
+
+  <div class="clock">
+  
+      <div class="hour">
+          <span id="hour">00</span>
+          <h6>Hour</h6>
+      </div>
+  
+      <div class="minutes">
+          <span id="minutes">00</span>
+          <h6>Minutes</h6>
+      </div>
+  
+      <div class="second">
+          <span id="seconds">00</span>
+          <h6>Seconds</h6>
+      </div>
+  
+  </div>
+  
+
+  <div class="header" id="favorite-list">
+    <a href="http://127.0.0.1:5500/favorites.html" id="favoriteList"><span class="material-symbols-outlined">
+      favorite
+      </span></a>
+  </div>
+  
+  
 
 <h1>Image Search ...!</h1>
 
@@ -21,16 +52,19 @@
   <div class="search-result">
     <img src="https://images.unsplash.com/photo-1682685797366-715d29e33f9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Amongst expansive red sands">
     <a href="https://unsplash.com/photos/AC3T7tvwPrY" target="_blank">Amongst expansive red sands</a>
+    <button class="favorite-button">Add to Favorites</button>
   </div>
 
   <div class="search-result">
     <img src="https://images.unsplash.com/photo-1682685797366-715d29e33f9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Amongst expansive red sands">
     <a href="https://unsplash.com/photos/AC3T7tvwPrY" target="_blank">Amongst expansive red sands</a>
+    <button class="favorite-button">Add to Favorites</button>
   </div>
 
   <div class="search-result">
     <img src="https://images.unsplash.com/photo-1682685797366-715d29e33f9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Amongst expansive red sands">
     <a href="https://unsplash.com/photos/AC3T7tvwPrY" target="_blank">Amongst expansive red sands</a>
+    <button class="favorite-button">Add to Favorites</button>
   </div>
 
 </div>
@@ -46,6 +80,8 @@
     expand_less
     </span></button>
 
+
     <script src="script.js"></script>
+    <script src="clock.js"></script>
 </body>
 </html>

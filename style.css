@@ -83,3 +83,14 @@ opacity: 0.8;
 .material-symbols-outlined:hover{
     transform: scaleY(2);
 }
+.header .material-symbols-outlined{
+    color: black;
+    float: right;
+    transform: none;
+    transition: none;
+    margin-right: 50px;
+}
+.favorite-button{
+    float: right;
+    padding: 2px 2px;
+}
